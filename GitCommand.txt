@@ -1,0 +1,14 @@
+Set Up Git:
+git config --global user.name "Your Name"
+git config --global user.email youremail@domain.com
+
+other commands
+git clone (url) -> cloning repository of url
+git add (file names) -> add file that was created from desktop
+git commit -m "(committed message)" (file name) -> commit the the file before pushing it to github
+git push -u origin master -> push the file committed to github repository
+git remote add origin master (url) -> add new remote 
+
+git status -> check the status of folder to see if there's any changes
+
+git pull --rebase -> fixes "Your branch is ahead of 'origin/master' by # commits"
