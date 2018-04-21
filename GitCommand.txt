@@ -12,3 +12,7 @@ git remote add origin master (url) -> add new remote
 git status -> check the status of folder to see if there's any changes
 
 git pull --rebase -> fixes "Your branch is ahead of 'origin/master' by # commits"
+(when interrupted...)
+git rebase --continue
+git rebase --abort
+git rebase --skip
